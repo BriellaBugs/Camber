@@ -4,6 +4,3 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://gitlab.com/buildroot.org/buildroot/
-[submodule "piinfotainment-external/package/pi-infotainment"]
-	path = piinfotainment-external/package/pi-infotainment
-	url = git@github.com:BriellaBugs/pi-infotainment.git
