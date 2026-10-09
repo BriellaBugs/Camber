@@ -4,3 +4,6 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://gitlab.com/buildroot.org/buildroot/
+[submodule "pi-infotainment"]
+	path = camber-external/package/pi-infotainment
+	url = git@github.com:BriellaBugs/pi-infotainment.git
