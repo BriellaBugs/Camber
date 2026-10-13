@@ -12,3 +12,12 @@ arm_boost=y
 initial_turbo=60
 
 dtoverlay=vc4-fkms-v3d
+
+dtparam=i2c_arm=on
+dtoverlay=i2c-rtc,ds3231
+
+dtparam=spi=on
+dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25
+dtoverlay=spi-bcm2835-overlay
+
+dtoverlay=hifiberry-amp
