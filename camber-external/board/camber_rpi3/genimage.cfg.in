@@ -8,6 +8,16 @@ image boot.vfat {
 	size = 32M
 }
 
+image data.ext4 {
+  ext4 {
+    label = "data"
+    use-mke2fs = true
+  }
+  mountpoint = "/usr/local"
+  size = 128M
+}
+
+
 image sdcard.img {
 	hdimage {
 	}
@@ -22,4 +32,9 @@ image sdcard.img {
 		partition-type = 0x83
 		image = "rootfs.ext4"
 	}
+
+  partition data {
+    partition-type = 0x83
+    image = "data.ext4"
+  }
 }
