@@ -79,6 +79,7 @@ BR2_GENERATE_LOCALE="en_US C"
 # Miscellaneous
 BR2_PACKAGE_NCURSES=y
 BR2_TARGET_GENERIC_GETTY=n
+BR2_PACKAGE_BUSYBOX_CONFIG_FRAGMENT_FILES="$(BR2_EXTERNAL_CAMBER_PATH)/board/camber_rpi3/busybox_config.frag"
 
 # DEBUG: Do not ship in a release image
 #
