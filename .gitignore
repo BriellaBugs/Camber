@@ -1,3 +1,3 @@
 .buildroot/
 output/
-camber-external/rootfs/usr/local/albumart/
+camber-external/board/camber_rpi3/data-partition/albumart/
