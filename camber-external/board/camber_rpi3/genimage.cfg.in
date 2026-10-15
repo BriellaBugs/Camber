@@ -20,6 +20,7 @@ image data.ext4 {
 
 image sdcard.img {
 	hdimage {
+	  disk-signature = 0x8977c583
 	}
 
 	partition boot {

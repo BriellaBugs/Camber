@@ -1,1 +1,1 @@
-root=/dev/sda2 rootwait
+root=PARTUUID=8977c583-02 rootwait rootfstype=ext4
