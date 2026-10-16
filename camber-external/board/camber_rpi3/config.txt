@@ -1,6 +1,9 @@
 start_file=start.elf
 fixup_file=fixup.dat
 
+disable_splash=1
+boot_delay=0
+
 kernel=Image
 
 disable_overscan=1
@@ -21,3 +24,5 @@ dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25
 dtoverlay=spi-bcm2835-overlay
 
 dtoverlay=hifiberry-amp
+
+dtparam=act_led_trigger=heartbeat
