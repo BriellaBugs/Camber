@@ -33,7 +33,7 @@ trap 'rm -rf "${ROOTPATH_TMP}"' EXIT
 ROOTPATH_TMP="$(mktemp -d)"
 
 mkdir -p "${ROOTPATH_TMP}/usr/local"
-cp -a "${BOARD_DIR}/data-partition" "${ROOTPATH_TMP}/usr/local"
+cp -a "${BOARD_DIR}/data-partition/." "${ROOTPATH_TMP}/usr/local"
 
 rm -rf "${GENIMAGE_TMP}"
 

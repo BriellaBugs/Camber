@@ -21,6 +21,7 @@ image data.ext4 {
 image sdcard.img {
 	hdimage {
 	  disk-signature = 0x8977c583
+          align = 1M
 	}
 
 	partition boot {
