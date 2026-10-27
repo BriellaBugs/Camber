@@ -4,7 +4,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 set -euo pipefail
 
-make rpi-firmware-dirclean
+#make rpi-firmware-dirclean
 #make linux-dirclean
 #make pi-infotainment-dirclean
 
