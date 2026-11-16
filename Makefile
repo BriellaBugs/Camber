@@ -1,4 +1,5 @@
-BR_VERSION ?= 2025.02.18
+#BR_VERSION ?= 2025.02.18
+BR_VERSION ?=  2026.08.1
 BR_DIR     := $(CURDIR)/.buildroot
 OUT        := $(CURDIR)/output
 EXT        := $(CURDIR)/camber-external
